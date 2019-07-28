@@ -10,7 +10,7 @@
     "node": ">=6.9.0",
     "homebridge": ">=0.4.50"
   },
-  "author": "Alex Marshall",
+  "author": "Alex Marshall <amars@alumni.stanford.edu>",
   "repository": {
     "type": "git",
     "url": "git@github.com:alexmensch/nido-homebridge.git"
