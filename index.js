@@ -143,12 +143,16 @@ class NidoThermostat {
     thermostatService
       .getCharacteristic(Characteristic.CurrentTemperature)
         .setProps({
-          maxValue: 130,
+          maxValue: 50,
           minValue: -10
         })
         .on('get', this.getCurrentTemperature.bind(this));
     thermostatService
       .getCharacteristic(Characteristic.TargetTemperature)
+        .setProps({
+          maxValue: 30,
+          minValue: 12
+        })
         .on('get', this.getTargetTemperature.bind(this))
         .on('set', this.setTargetTemperature.bind(this));
     thermostatService
