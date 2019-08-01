@@ -1,5 +1,10 @@
 *This respository is the NodeJS plugin for [Homebridge](https://github.com/nfarina/homebridge) that allows the Nido smart thermostat to be controlled via [Apple HomeKit](https://www.apple.com/ios/home/). If you're looking for instructions on how to run Nido on a Raspberry Pi, see <https://github.com/alexmensch/nido> for instructions and the full project background.*
 
+## Quickstart
+```bash
+npm install homebridge-nido
+```
+
 ## Running the homebridge-nido plugin locally for development
 ### Requirements and initial configuration
 1. Follow the instructions for [installing Homebridge](https://github.com/nfarina/homebridge#installation).
